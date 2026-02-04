@@ -1,0 +1,53 @@
+Filetype: Flipper Wedge Keyboard Layout
+Version: 1
+Name: Colemak
+
+# Colemak keyboard layout
+# Alternative ergonomic layout (easier transition from QWERTY)
+# Numbers are in the same positions as QWERTY
+#
+# Colemak letter positions (changes from QWERTY):
+# e -> f -> t -> g -> d -> e (cycle)
+# j -> y (swap)
+# p -> ; (swap)
+# k -> n (swap)
+# l stays
+#
+# For hex letters A-F:
+# A, B, C are unchanged from QWERTY
+# D is in 'g' position (US keycode 10)
+# E is in 'k' position (US keycode 14)
+# F is in 'e' position (US keycode 8)
+
+# Digits (same positions as QWERTY)
+0: 39
+1: 30
+2: 31
+3: 32
+4: 33
+5: 34
+6: 35
+7: 36
+8: 37
+9: 38
+
+# Hex letters (uppercase) - Colemak positions
+A: 4 SHIFT
+B: 5 SHIFT
+C: 6 SHIFT
+D: 10 SHIFT
+E: 14 SHIFT
+F: 8 SHIFT
+
+# Hex letters (lowercase) - Colemak positions
+a: 4
+b: 5
+c: 6
+d: 10
+e: 14
+f: 8
+
+# Common delimiters (same as QWERTY)
+-: 45
+:: 51 SHIFT
+,: 54

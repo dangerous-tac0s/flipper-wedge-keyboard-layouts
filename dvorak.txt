@@ -1,0 +1,55 @@
+Filetype: Flipper Wedge Keyboard Layout
+Version: 1
+Name: Dvorak
+
+# Dvorak keyboard layout
+# Alternative ergonomic layout
+# Numbers are in the same positions as QWERTY
+# Letters are completely rearranged
+#
+# Dvorak letter positions:
+# Top row:    ' , . p y f g c r l
+# Home row:   a o e u i d h t n s
+# Bottom row: ; q j k x b m w v z
+#
+# HID keycodes for hex letters on Dvorak:
+# A = position of 'a' key (home row, left pinky) = US 'a' position = 4
+# B = position of 'b' key (bottom row) = US 'n' position = 17
+# C = position of 'c' key (top row) = US 'i' position = 12
+# D = position of 'd' key (home row) = US 'e' position = 8
+# E = position of 'e' key (home row) = US 'd' position = 7
+# F = position of 'f' key (top row) = US 't' position = 23
+
+# Digits (same positions as QWERTY)
+0: 39
+1: 30
+2: 31
+3: 32
+4: 33
+5: 34
+6: 35
+7: 36
+8: 37
+9: 38
+
+# Hex letters (uppercase) - Dvorak positions
+A: 4 SHIFT
+B: 17 SHIFT
+C: 12 SHIFT
+D: 8 SHIFT
+E: 7 SHIFT
+F: 23 SHIFT
+
+# Hex letters (lowercase) - Dvorak positions
+a: 4
+b: 17
+c: 12
+d: 8
+e: 7
+f: 23
+
+# Common delimiters
+# On Dvorak: - is in same position, : is Shift+z position
+-: 45
+:: 51 SHIFT
+,: 26

@@ -1,0 +1,41 @@
+Filetype: Flipper Wedge Keyboard Layout
+Version: 1
+Name: NumPad (Reference)
+
+# NumPad layout - Reference file
+# This is the same as the built-in "NumPad" option.
+# Uses numpad keycodes which are layout-independent.
+# Requires NumLock to be ON on the host computer.
+#
+# NumPad keycodes:
+# 0 = 0x62 (98)
+# 1-9 = 0x59-0x61 (89-97)
+# A-F = 0xBC-0xC1 (188-193) - extended numpad hex keys
+
+# Digits - NumPad keycodes
+0: 98
+1: 89
+2: 90
+3: 91
+4: 92
+5: 93
+6: 94
+7: 95
+8: 96
+9: 97
+
+# Hex letters (uppercase) - NumPad hex keycodes
+A: 188
+B: 189
+C: 190
+D: 191
+E: 192
+F: 193
+
+# Hex letters (lowercase) - same as uppercase for numpad
+a: 188
+b: 189
+c: 190
+d: 191
+e: 192
+f: 193

@@ -1,0 +1,42 @@
+Filetype: Flipper Wedge Keyboard Layout
+Version: 1
+Name: Hungarian QWERTZ
+
+# Hungarian QWERTZ keyboard layout
+# Key differences:
+# - 0 is to the LEFT of 1 (in the backtick/grave position)
+# - Z and Y are swapped
+# - Number row: 0 1 2 3 4 5 6 7 8 9 Ö Ü Ó
+
+# Digits - 0 is in backtick position (53)
+0: 53
+1: 30
+2: 31
+3: 32
+4: 33
+5: 34
+6: 35
+7: 36
+8: 37
+9: 38
+
+# Hex letters (uppercase)
+A: 4 SHIFT
+B: 5 SHIFT
+C: 6 SHIFT
+D: 7 SHIFT
+E: 8 SHIFT
+F: 9 SHIFT
+
+# Hex letters (lowercase)
+a: 4
+b: 5
+c: 6
+d: 7
+e: 8
+f: 9
+
+# Common delimiters
+-: 47
+:: 55 SHIFT
+,: 54

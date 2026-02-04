@@ -1,0 +1,101 @@
+Filetype: Flipper Wedge Keyboard Layout
+Version: 1
+Name: My Custom Layout
+
+# =============================================================================
+# CUSTOM KEYBOARD LAYOUT TEMPLATE
+# =============================================================================
+#
+# Instructions:
+# 1. Rename "My Custom Layout" above to your layout name
+# 2. Test which physical keys produce each character on your keyboard
+# 3. Uncomment and modify the mappings below
+# 4. Save to /ext/apps_data/flipper_wedge/layouts/ on your Flipper
+#
+# Format: <character>: <hid_keycode> [SHIFT]
+#
+# =============================================================================
+# HID KEYCODE REFERENCE
+# =============================================================================
+#
+# PHYSICAL KEY POSITIONS (US QWERTY reference):
+#
+# Number Row:
+#   Key:  `    1    2    3    4    5    6    7    8    9    0    -    =
+#   Code: 53   30   31   32   33   34   35   36   37   38   39   45   46
+#
+# Top Letter Row:
+#   Key:  Q    W    E    R    T    Y    U    I    O    P    [    ]    \
+#   Code: 20   26   8    21   23   28   24   12   18   19   47   48   49
+#
+# Home Row:
+#   Key:  A    S    D    F    G    H    J    K    L    ;    '
+#   Code: 4    22   7    9    10   11   13   14   15   51   52
+#
+# Bottom Row:
+#   Key:  Z    X    C    V    B    N    M    ,    .    /
+#   Code: 29   27   6    25   5    17   16   54   55   56
+#
+# Special Keys:
+#   Space=44  Tab=43  Enter=40  Backspace=42  Escape=41
+#
+# =============================================================================
+# DETERMINING YOUR KEYCODES
+# =============================================================================
+#
+# Method 1: Use the US position
+#   If '0' on your keyboard is in the backtick position (left of 1), use 53
+#   If '0' needs SHIFT on key '9', use "0: 38 SHIFT"
+#
+# Method 2: Reference another layout
+#   Find a similar layout in this repo and modify it
+#
+# =============================================================================
+
+# === DIGITS ===
+# Uncomment and modify for your layout
+# If numbers are in standard positions (no SHIFT):
+# 0: 39
+# 1: 30
+# 2: 31
+# 3: 32
+# 4: 33
+# 5: 34
+# 6: 35
+# 7: 36
+# 8: 37
+# 9: 38
+
+# If numbers need SHIFT (like French AZERTY):
+# 0: 39 SHIFT
+# 1: 30 SHIFT
+# etc.
+
+# If 0 is in a different position (like Hungarian):
+# 0: 53
+# 1: 30
+# etc.
+
+# === HEX LETTERS (UPPERCASE) ===
+# A: 4 SHIFT
+# B: 5 SHIFT
+# C: 6 SHIFT
+# D: 7 SHIFT
+# E: 8 SHIFT
+# F: 9 SHIFT
+
+# === HEX LETTERS (LOWERCASE) ===
+# For AZERTY (A in Q position):
+# a: 20
+# For standard QWERTY:
+# a: 4
+# b: 5
+# c: 6
+# d: 7
+# e: 8
+# f: 9
+
+# === DELIMITERS ===
+# -: 45
+# :: 51 SHIFT
+# ,: 54
