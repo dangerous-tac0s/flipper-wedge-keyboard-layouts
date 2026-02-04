@@ -6,12 +6,12 @@ Name: Colemak
 # Alternative ergonomic layout (easier transition from QWERTY)
 # Numbers are in the same positions as QWERTY
 #
-# Colemak letter positions (changes from QWERTY):
-# e -> f -> t -> g -> d -> e (cycle)
-# j -> y (swap)
-# p -> ; (swap)
-# k -> n (swap)
-# l stays
+# Colemak rearranges most letters from QWERTY.
+# Key positions for hex letters A-F:
+#   A, B, C - same physical position as QWERTY
+#   D - where QWERTY 'g' is (home row, left hand)
+#   E - where QWERTY 'k' is (home row, right hand)
+#   F - where QWERTY 'e' is (top row, left hand)
 #
 # For hex letters A-F:
 # A, B, C are unchanged from QWERTY
